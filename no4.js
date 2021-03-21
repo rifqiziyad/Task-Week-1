@@ -13,7 +13,10 @@ const data = {
     website: "hildegard.org"
 }
 
+// a. Ubah data tersebut menggunakan spread operator
 const newData = { name: 'Rifqi Ziyad Imtinan', email: 'rifqimtinan@gmail.com', hobby: 'Badminton'}
+
+// b. Ambil data Ambilah data “street dan city” tersebut menggunakan destructuring
 const {street, city } = data.address
 
 console.log({...data, ...newData})
